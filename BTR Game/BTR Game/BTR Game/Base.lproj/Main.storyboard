@@ -27,7 +27,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mVo-rc-KPj" kind="show" id="DCi-MD-sAe"/>
+                                    <action selector="play:" destination="Day-ZU-uQO" eventType="touchUpInside" id="DF4-m8-5Kp"/>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oY2-5y-WIt"/>
+                                    <segue destination="mVo-rc-KPj" kind="show" id="fZD-yE-RSP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,6 +38,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="Day-ZU-uQO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-85.507246376811594" y="26.785714285714285"/>
         </scene>

@@ -108,6 +108,7 @@
 				TargetAttributes = {
 					18CE77302304872A008C9328 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -306,6 +307,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayle.BTR-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayle.BTR-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

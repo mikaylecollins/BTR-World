@@ -8,9 +8,10 @@
 
 import UIKit
 
-class Game: UITableViewController {
+class Game: UIViewController {
 
  
+   
     @IBOutlet weak var green1: UIButton!
     
     @IBOutlet weak var green2: UIButton!
@@ -20,13 +21,13 @@ class Game: UITableViewController {
     
     @IBOutlet weak var start: UIButton!
 
-    @IBAction func green1Press() -> (AnyObject.sender) {
+    @IBAction func green1Press() {
     }
     
-    @IBAction func green2Press() -> (AnyObject.sender) {
+    @IBAction func green2Press() {
     }
     
-    @IBAction func green3Press() -> (AnyObject.sender) {
+    @IBAction func green3Press() {
     }
     
     
@@ -45,15 +46,15 @@ class Game: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+//    //override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
+//
+//   // override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 0
+//    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
