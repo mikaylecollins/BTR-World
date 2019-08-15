@@ -8,9 +8,16 @@
 
 import UIKit
 
+
+
+
 class Game: UIViewController {
 
- 
+    let RandomGreen1Pos = Int.random(in: 20..<290)
+    
+    let RandomGreen2Pos = Int.random(in: 20..<290)
+    
+    let RandomGreen3Pos = Int.random(in: 20..<290)
    
     @IBOutlet weak var green1: UIButton!
     
@@ -30,11 +37,14 @@ class Game: UIViewController {
     @IBAction func green3Press() {
     }
     
-    
-    
-    
-    
-    override func viewDidLoad() {
+    func placeGreen1() -> (Int) -> Void {
+    }
+        func placeGreen2() -> (Int) -> Void {
+    }
+            func placeGreen3() -> (Int) -> Void {
+    }
+    //i delteted override
+    func viewDidLoad() {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations

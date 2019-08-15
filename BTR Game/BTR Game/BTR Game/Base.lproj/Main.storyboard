@@ -57,19 +57,11 @@
                                 <state key="normal" title="Start"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LO-Xp-ryb">
-                                <rect key="frame" x="36" y="110" width="96" height="96"/>
+                                <rect key="frame" x="298" y="44" width="96" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="green.jpg"/>
                                 <connections>
                                     <action selector="green3:" destination="mVo-rc-KPj" eventType="touchUpInside" id="6CJ-wZ-1n9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuU-dk-aoC">
-                                <rect key="frame" x="261" y="92" width="96" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="green.jpg"/>
-                                <connections>
-                                    <action selector="green1:" destination="mVo-rc-KPj" eventType="touchUpInside" id="CHB-TZ-7zj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53z-iv-y19">
@@ -78,6 +70,14 @@
                                 <state key="normal" backgroundImage="green.jpg"/>
                                 <connections>
                                     <action selector="green2:" destination="mVo-rc-KPj" eventType="touchUpInside" id="c8w-Xy-bTy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuU-dk-aoC">
+                                <rect key="frame" x="20" y="77" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="green.jpg"/>
+                                <connections>
+                                    <action selector="green1:" destination="mVo-rc-KPj" eventType="touchUpInside" id="CHB-TZ-7zj"/>
                                 </connections>
                             </button>
                         </subviews>
