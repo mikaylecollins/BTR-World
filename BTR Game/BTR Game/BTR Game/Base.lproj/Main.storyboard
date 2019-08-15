@@ -56,20 +56,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Start"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LO-Xp-ryb">
-                                <rect key="frame" x="298" y="44" width="96" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="green.jpg"/>
-                                <connections>
-                                    <action selector="green3:" destination="mVo-rc-KPj" eventType="touchUpInside" id="6CJ-wZ-1n9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53z-iv-y19">
-                                <rect key="frame" x="149" y="266" width="96" height="96"/>
+                                <rect key="frame" x="146" y="77" width="96" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="green.jpg"/>
                                 <connections>
-                                    <action selector="green2:" destination="mVo-rc-KPj" eventType="touchUpInside" id="c8w-Xy-bTy"/>
+                                    <action selector="green2:" destination="mVo-rc-KPj" eventType="touchUpInside" id="I28-AH-6Ic"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuU-dk-aoC">
@@ -77,7 +69,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="green.jpg"/>
                                 <connections>
-                                    <action selector="green1:" destination="mVo-rc-KPj" eventType="touchUpInside" id="CHB-TZ-7zj"/>
+                                    <action selector="green1:" destination="mVo-rc-KPj" eventType="touchUpInside" id="a1n-CS-0Qc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LO-Xp-ryb">
+                                <rect key="frame" x="282" y="77" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="green.jpg"/>
+                                <connections>
+                                    <action selector="green3:" destination="mVo-rc-KPj" eventType="touchUpInside" id="ydW-8V-jAD"/>
                                 </connections>
                             </button>
                         </subviews>

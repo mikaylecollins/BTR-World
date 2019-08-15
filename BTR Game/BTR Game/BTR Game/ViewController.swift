@@ -9,25 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    func placeGreen1() -> (Int) -> Void {
-    }
-    func placeGreen2() -> (Int) -> Void {
-    }
-    func placeGreen3() -> (Int) -> Void {
-    }
     
-}
+    
 
 
-func play(_ sender: Any) {
-    }
+
     //deleted override
-     func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+}
 
 
 

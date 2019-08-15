@@ -13,36 +13,88 @@ import UIKit
 
 class Game: UIViewController {
 
-    let RandomGreen1Pos = Int.random(in: 20..<290)
-    
-    let RandomGreen2Pos = Int.random(in: 20..<290)
-    
-    let RandomGreen3Pos = Int.random(in: 20..<290)
    
+    
     @IBOutlet weak var green1: UIButton!
     
     @IBOutlet weak var green2: UIButton!
     
     @IBOutlet weak var green3: UIButton!
     
-    
     @IBOutlet weak var start: UIButton!
+   
+   // var buttonType: UIButton.ButtonType { get }
+   // let RandomGreen1Pos = UIButton(type: .custom)
+    
+    var CGPoint = Int.random(in: 0..<6)
+    
+    var CGSize = Int()
+    
+//    init(origin: CGPoint, size: CGSize, coder: UIViewController) {
+//
+//    }
+//
+//    override init () {
+//        super.init()
+//    }
+    //required init?(coder aDecoder: NSCoder) {
+       // fatalError("init(coder:) has not been implemented")
 
-    @IBAction func green1Press() {
+    
+    @IBAction func green1(_ sender: Any) {
     }
     
-    @IBAction func green2Press() {
+    @IBAction func green2(_ sender: Any) {
     }
     
-    @IBAction func green3Press() {
+    @IBAction func green3(_ sender: Any) {
     }
     
-    func placeGreen1() -> (Int) -> Void {
+    func play(_ sender: Any) {
     }
-        func placeGreen2() -> (Int) -> Void {
-    }
-            func placeGreen3() -> (Int) -> Void {
-    }
+        //func placeGreen1() -> (Int) -> Void {
+    //}
+    
+    var RandomGreen1Pos = Double.random(in: 20..<290)
+    
+    var RandomGreen2Pos = Double.random(in: 20..<290)
+    
+    var RandomGreen3Pos = Double.random(in: 20..<290)
+    
+    var RandomGreen11Pos = Double.random(in: 20..<290)
+    
+    var RandomGreen22Pos = Double.random(in: 20..<290)
+    
+    var RandomGreen33Pos = Double.random(in: 20..<290)
+    
+    
+    
+    func placeGreen1() {
+        
+        // var green1 =
+        
+        //  var green2 =
+        
+        // var green3 =
+        
+        //green1.center = CGPointMake(RandomGreen1Pos, 51)
+        
+       // green1.center = (RandomGreen1Pos, 77)
+        
+        
+        
+//        func placeGreen2() -> (Int) -> Void {
+//            //  RandomGreen1Pos = arc4random () %250
+//            //green2
+//            .center = CGPointMake(RandomGreen1Pos, 51)   }
+//
+//        func placeGreen3() -> (Int) -> Void {
+//
+//            //     RandomGreen1Pos = arc4random () %250
+//            //green3
+//            green3.center = CGPointMake(RandomGreen1Pos, 51)    }
+//
+
     //i delteted override
     func viewDidLoad() {
         super.viewDidLoad()
@@ -121,4 +173,5 @@ class Game: UIViewController {
     }
     */
 
+}
 }
